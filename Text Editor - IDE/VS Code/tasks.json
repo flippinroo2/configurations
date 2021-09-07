@@ -1,0 +1,34 @@
+{
+  "version": "2.0.0",
+  "name": "tasks",
+  // "isShellCommand": true,
+  // "command": "npm",
+  // "args": [
+  //   "run"
+  // ],
+  "options": {
+    "cwd": "${workspaceFolder}",
+  },
+  "tasks": [
+    // Testing Tasks
+    {
+      // Single file test
+      "label": "jest - single file",
+      "type": "shell",
+      "command": "npm run test",
+      "args": [
+        "${file}",
+      ],
+      "group": "test",
+      "presentation": { "reveal": "always", "echo": true, "focus": true, "panel": "shared" },
+    },
+    {
+      // Multiple file test
+      "label": "jest - multiple files",
+      "type": "shell",
+      "command": "npm run tests",
+      "group": "test",
+      "presentation": { "reveal": "always", "echo": true, "focus": true, "panel": "shared" },
+    }
+  ]
+}

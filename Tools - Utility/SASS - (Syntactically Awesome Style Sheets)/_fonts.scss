@@ -1,0 +1,124 @@
+/* stylelint-disable */
+// Declare your font faces in this file.
+// Make sure to put your font files within the ../fonts folder!
+
+// Example font face:
+// @font-face {
+//   font-family: 'Montserrat';
+//   font-weight: 400;
+//   src:  url('./../../fonts/montserrat/Montserrat-Regular.woff') format('woff');
+// }
+
+@font-face {
+  font-family: "Output Hairline";
+  font-weight: 100;
+  src: url("./resources/fonts/Output/OutputHairline/Output Hairline.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Output Hairline Italic";
+  font-weight: italic;
+  src: url("./resources/fonts/Output/OutputHairlineItalic/Output Hairline Italic.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Output Extra Light";
+  font-weight: 200;
+  src: url("./resources/fonts/Output/OutputExtraLight/Output Extra Light.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Output Extra Light Italic";
+  font-weight: italic;
+  src: url("./resources/fonts/Output/OutputExtraLightItalic/Output Extra Light Italic.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Output Light";
+  font-weight: 300;
+  src: url("./resources/fonts/Output/OutputLight/Output Light.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Output Light Italic";
+  font-weight: italic;
+  src: url("./resources/fonts/Output/OutputLightItalic/Output Light Italic.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Output Regular";
+  font-weight: 400;
+  src: url("./resources/fonts/Output/OutputRegular/Output Regular.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Output Italic";
+  font-weight: italic;
+  src: url("./resources/fonts/Output/OutputItalic/Output Italic.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Output Thin";
+  font-weight: 400;
+  src: url("./resources/fonts/Output/OutputThin/Output Thin.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Output Thin Italic";
+  font-weight: italic;
+  src: url("./resources/fonts/Output/OutputThinItalic/Output Thin Italic.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Output Medium";
+  font-weight: 600;
+  src: url("./resources/fonts/Output/OutputMedium/Output Medium.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Output Medium Italic";
+  font-weight: italic;
+  src: url("./resources/fonts/Output/OutputMediumItalic/Output Medium Italic.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Output Black";
+  font-weight: bolder;
+  src: url("./resources/fonts/Output/OutputBlack/Output Black.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Output Black Italic";
+  font-weight: italic;
+  src: url("./resources/fonts/Output/OutputBlackItalic/Output Black Italic.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Output Bold";
+  font-weight: bold;
+  src: url("./resources/fonts/Output/OutputBold/Output Bold.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Output Bold Italic";
+  font-weight: italic;
+  src: url("./resources/fonts/Output/OutputBoldItalic/Output Bold Italic.woff")
+    format("woff");
+}
+
+/* stylelint-enable */

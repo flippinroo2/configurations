@@ -1,0 +1,22 @@
+{
+ "extends": "airbnb",
+ "env": {
+     "node": true,
+     "es6": true,
+     "browser": true
+ },
+ "parserOptions": {
+    "ecmaVersion": 2017
+ },
+ "rules": {
+    "max-len": 0,
+    "no-fallthrough": 0,
+    "linebreak-style": 0,
+    "no-use-before-define": 0,
+    "react/jsx-filename-extension": 0,
+    "import/no-named-as-default": 0,
+    "import/no-named-as-default-member": 0,
+    "no-var": 0,
+    "vars-on-top": 0
+ }
+}

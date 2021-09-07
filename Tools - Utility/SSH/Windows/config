@@ -1,0 +1,5 @@
+Host            jamie-scott-productions
+HostName        3.91.230.89
+Port            22
+IdentityFile    "C:\\Users\\Kevin\\.ssh\\jamie-scott-productions.pem"
+User            ec2-user

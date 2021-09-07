@@ -1,0 +1,299 @@
+{
+  // Beautify Settings
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[html]": {},
+  "[json]": {
+  "editor.defaultFormatter": "vscode.json-language-features",
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    // "editor.defaultFormatter": "HookyQR.beautify",
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "vscode.typescript-language-features" // Should I change this to be "esbenp.prettier-vscode" like the desktop had it?
+  },
+  "[php]": {
+  // "editor.defaultFormatter": "vscode.php-language-features",
+  "editor.defaultFormatter": "kokororin.vscode-phpfmt",
+  "editor.formatOnSave": true
+  },
+  "[scss]": {
+    // "editor.defaultFormatter": "vscode.css-language-features",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "cymonk.sql-formatter"
+  },
+
+  // Bracket Pair Colorizer 2 Settings
+  "bracket-pair-colorizer-2.colors": [
+    "#ffff00",
+    "#7fff00",
+    "#7939b2"
+  ],
+  "bracket-pair-colorizer-2.colorMode": "Independent",
+  "bracket-pair-colorizer-2.forceUniqueOpeningColor": false,
+  "bracket-pair-colorizer-2.rulerPosition": "Left",
+  "bracket-pair-colorizer-2.showBracketsInGutter": true,
+  "bracket-pair-colorizer-2.showBracketsInRuler": true,
+  "bracket-pair-colorizer-2.showHorizontalScopeLine": true,
+
+  // Breadcrumb Settings
+  "breadcrumbs.enabled": true,
+
+  // cSpell - Spellcheck Settings
+  "cSpell.language": "en,en-US",
+  "cSpell.userWords": [
+    "Bing",
+    "Brainworks",
+    "CHARTBEAT",
+    "Centro",
+    "IPTC",
+    "Infographic",
+    "Ingestor",
+    "NEWSCYCLE",
+    "Reddit",
+    "SOLR",
+    "SQLITE",
+    "Snapchat",
+    "UUIDs",
+    "Visio",
+    "amphtml",
+    "anglerfish",
+    "apos",
+    "appx",
+    "asctime",
+    "boto",
+    "bucs",
+    "contextlib",
+    "datefmt",
+    "difflib",
+    "dotenv",
+    "dtype",
+    "endblock",
+    "eval",
+    "firstname",
+    "floridapublicnotices",
+    "ftfy",
+    "fuzzywuzzy",
+    "getenv",
+    "hernando",
+    "hidev",
+    "hillsborough",
+    "histage",
+    "hiweb",
+    "instapy",
+    "lastname",
+    "levelname",
+    "mixins",
+    "nogui",
+    "numpy",
+    "pasco",
+    "pinellas",
+    "powerups",
+    "pprint",
+    "prefetch",
+    "prepend",
+    "pseudocode",
+    "ratelimit",
+    "rfind",
+    "slugified",
+    "slugify",
+    "slugifying",
+    "solrdev",
+    "strptime",
+    "stylelint",
+    "stylelintrc",
+    "subnav",
+    "tampabay",
+    "traceback",
+    "uncommented",
+    "unfollow",
+    "urllib",
+    "youtube",
+    "zillow"
+  ],
+
+  // CSS Settings
+  "css.validate": true,
+
+  // Editor Settings
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontSize": 18,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+  "editor.wordWrap": "on",
+  "editor.matchBrackets": "never",
+  "editor.formatOnSave": false,
+  "editor.minimap.enabled": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.minimap.showSlider": "always",
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.snippetSuggestions": "bottom",
+  "editor.dragAndDrop": false,
+  "editor.scrollBeyondLastLine": false,
+  "editor.showFoldingControls": "always",
+  "editor.suggestSelection": "first",
+  "editor.renderControlCharacters": false,
+
+  // Emmet
+  "emmet.triggerExpansionOnTab": true,
+
+  // Explorer Settings
+  "explorer.openEditors.visible": 0,
+  "explorer.confirmDragAndDrop": false,
+
+  // Files Settings
+  "files.autoSave": "onWindowChange",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.associations": {
+    "*.dat": "json",
+    "*.http": "http",
+    "*.jsp": "jsp",
+    ".gitignore_global": "ignore"
+  },
+  "files.exclude": {
+    "**/.git": false,
+    "**/.svn": false
+  },
+  "files.maxMemoryForLargeFilesMB": 6144,
+
+  // git Settings
+  "git.autofetch": true,
+  "git.autorefresh": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.promptToSaveFilesBeforeCommit": true,
+
+  // gitlens Settings
+  "gitlens.currentLine.scrollable": false,
+  "gitlens.codeLens.recentChange.command": "gitlens.showQuickFileHistory",
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.scopes": [
+    "blocks",
+    "containers",
+    "document"
+  ],
+  "gitlens.statusBar.format": "${author}, ${authorAgoOrDate}",
+  "gitlens.statusBar.command": "gitlens.revealCommitInView",
+  "gitlens.views.lineHistory.avatars": false,
+  "gitlens.views.lineHistory.enabled": false,
+  "gitlens.views.search.files.layout": "tree",
+  "gitlens.views.compare.location": "scm",
+  "gitlens.views.repositories.files.layout": "tree",
+  "gitlens.views.compare.files.layout": "tree",
+  "gitlens.blame.highlight.locations": [
+    "gutter",
+    "line"
+  ],
+  "gitlens.blame.toggleMode": "window",
+  "gitlens.heatmap.toggleMode": "window",
+  "gitlens.recentChanges.toggleMode": "window",
+  "gitlens.recentChanges.highlight.locations": [
+    "gutter",
+    "line"
+  ],
+  "gitlens.hovers.enabled": false,
+
+  // HTML Settings
+  "html.autoClosingTags": false,
+  "html.suggest.html5": true,
+
+  // Indent Rainbow Settings
+  "indentRainbow.colors": [
+    "rgba(255,255,0,0.1)",
+    "rgba(127,255,0,0.1)",
+    "rgba(121,57,178,0.1)"
+  ],
+  "indentRainbow.errorColor": "rgba(255,0,0,0.1)",
+
+  // JavaScript Settings
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // MSSQL Settings
+  "mssql.maxRecentConnections": 0,
+  "mssql.connections": [
+    {
+      "server": "IP_ADDRESS",
+      "database": "",
+      "authenticationType": "SqlLogin",
+      "user": "USERNAME",
+      "password": "",
+      "emptyPasswordInput": false,
+      "savePassword": true,
+      "profileName": "PROFILE_NAME"
+    },
+  ],
+  "mssql.messagesDefaultOpen": false,
+  "mssql.logDebugInfo": true,
+  "mssql.intelliSense.enableIntelliSense": true,
+  "mssql.intelliSense.enableErrorChecking": true,
+  "mssql.intelliSense.enableSuggestions": true,
+  "mssql.intelliSense.enableQuickInfo": true,
+  "mssql.intelliSense.lowerCaseSuggestions": false, // Maybe switch this one day?
+  "mssql.resultsFontSize": 13, // Leaving this here for flexibility later
+  "mssql.copyIncludeHeaders": true,
+  "mssql.copyRemoveNewLine": true,
+  "mssql.format.alignColumnDefinitionsInColumns": false,
+  "mssql.persistQueryResultTabs": false, // Curious about what this does?
+
+  // PHP Settings
+  "php.validate.executablePath": "C:\\PATH_TO_PHP\\php.exe",
+  "php.executablePath": "C:\\PATH_TO_PHP\\php.exe",
+
+  // phpfmt Settings
+  // "phpfmt.php_bin": "C:\\PATH_TO_PHP\\php.exe",
+  "phpfmt.php_bin": "php",
+  "phpfmt.detect_indent": true,
+  // "phpfmt.indent_with_space": 2,
+  "phpfmt.enable_auto_align": true,
+  "phpfmt.psr2": true,
+  "phpfmt.smart_linebreak_after_curly": true,
+
+  // Prettier Settings
+  "prettier.configPath": "C:\\PATH_TO_PRETTIER_RC\\.prettierrc",
+  "prettier.cssEnable": [ "css", "less", "scss" ],
+
+  // Python Settings
+  "python.autoComplete.showAdvancedMembers": false,
+  "python.formatting.provider": "autopep8",
+  "python.jediEnabled": false,
+  "python.linting.maxNumberOfProblems": 50,
+  "python.linting.pylintEnabled": true,
+  "python.linting.pep8Enabled": false, // Is this no longer a setting?
+  "python.linting.pycodestyleEnabled": false,
+  "python.terminal.activateEnvironment": true,
+  // "python.venvPath": "PATH_TO_PYTHON_BINARY/bin/python3",
+
+  // SCSS Settings
+  "scss.validate": true,
+
+  // SVN Settings
+  // "svn.enableProposedApi": "product",
+
+  // Terminal Settings
+  "terminal.integrated.rendererType": "dom",
+  "terminal.integrated.shell.windows": "C:\\PATH_TO_CMD\\cmd.exe",
+  //"terminal.integrated.shell.windows": "C:\\PATH_TO_WINDOWS_POWERSHELL\\powershell.exe",
+  //"terminal.integrated.shell.windows": "C:\PATH_TO_BASH\\bash.exe",
+
+  // Telemetry Settings
+  "telemetry.enableTelemetry": false,
+
+  // VS Intellicode Settings
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  // Workbench Settings
+  "workbench.list.horizontalScrolling": true,
+
+  // Window Settings
+  "window.zoomLevel": -1
+}

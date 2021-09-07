@@ -1,0 +1,38 @@
+[core]
+	editor="/PATH_TO_EDITOR" # Figure out the problem here???
+	excludesfile=~/.gitignore_global
+    # fscache = true # DO SOME RESEARCH HERE
+    # symlinks = false # DO SOME RESEARCH HERE
+    # autocrlf=true # Mainly for Windows users
+    # safecrlf=true
+    # eol=native
+    # filemode=false # Tells git to ignore file permission changes
+    # compression=9 # This is a pretty aggressive compression number. Adjsuting this makes the repo smaller but "git" itself becomes slower.RE
+[color]
+    ui=auto # Turns on default colors for many "git" commands
+# [credential]
+#     helper=manager
+[diff]
+    tool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+# [github]
+    # user=USERNAME
+    # token=token # DO SOME RESEARCH HERE
+[help]
+    format=html
+[merge]
+    tool = vscode
+[mergetool "vscode"]
+    cmd = code --wait $MERGED
+# [rebase]
+#     autosquash=true # DO SOME RESEARCH HERE
+[rerere]
+    enabled=true # DO SOME RESEARCH HERE
+    autoupdate=true # DO SOME RESEARCH HERE
+[user]
+    name=NAME
+    email=EMAIL
+    # username=flippinroo2 # DO SOME RESEARCH HERE
+[web]
+    browser=google-chrome # DO SOME RESEARCH HERE

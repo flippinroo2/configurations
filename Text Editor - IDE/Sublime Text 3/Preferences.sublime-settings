@@ -1,0 +1,40 @@
+{
+	"always_show_minimap_viewport": true,
+	"auto_close_tags": true,
+	"auto_complete": true,
+	"auto_complete_delay": 400,
+	"auto_complete_selector": "meta.tag - punctuation.definition.tag.begin, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html"
+		},
+		{
+			"characters": ".",
+			"selector": "source.js"
+		}
+	],
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"draw_minimap_border": true,
+	"fallback_encoding": "UTF-16",
+	"font_size": 13,
+	"highlight_modified_tabs": true,
+	"open_files_in_new_window": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
+	"remember_full_screen": true,
+	"save_on_focus_lost": true,
+	"sidebar_font_big": true,
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"update_check": true,
+	"word_wrap": true
+}
