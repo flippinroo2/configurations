@@ -3,9 +3,9 @@
 	excludesfile=~/.gitignore_global
     # fscache = true # DO SOME RESEARCH HERE
     # symlinks = false # DO SOME RESEARCH HERE
-    # autocrlf=true # Mainly for Windows users
+    # autocrlf=false # Mainly for Windows users
     # safecrlf=true
-    # eol=native
+    # eol=lf
     # filemode=false # Tells git to ignore file permission changes
     # compression=9 # This is a pretty aggressive compression number. Adjsuting this makes the repo smaller but "git" itself becomes slower.RE
 [color]
