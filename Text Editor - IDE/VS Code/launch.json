@@ -100,5 +100,149 @@
       "program": "${file}",
       "console": "externalTerminal"
     },
+    {
+      "name": "GDScript Godot",
+      "type": "godot",
+      "request": "launch",
+      "project": "${workspaceFolder}\\gaming\\Tests\\ActionRPG",
+      "port": 6007,
+      "address": "127.0.0.1",
+      "launch_game_instance": true,
+      // "scene_file": ".\\Root.tscn",
+      "launch_scene": false
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Cargo Build",
+      "cargo": {
+        "args": [
+          "build",
+          "--manifest-path=/Users/kloy/Development/Code/misc/Rust/custom/Cargo.toml"
+        ]
+      },
+      "program": "${cargo:program}",
+      "args": []
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Cargo Run",
+      "cargo": {
+        "args": [
+          "run",
+          "--manifest-path=/Users/kloy/Development/Code/misc/Rust/custom/Cargo.toml",
+          "--bin=/Users/kloy/Development/Code/misc/Rust/custom/target/debug/custom"
+        ]
+      },
+      "cwd": "${fileDirname}",
+      "program": "${cargo:program}",
+      "args": []
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Cargo Test",
+      "cargo": {
+        "args": [
+          "test",
+          "--manifest-path=/Users/kloy/Development/Code/misc/Rust/custom/Cargo.toml"
+        ]
+      },
+      "program": "${cargo:program}",
+      "args": []
+    },
+    {
+      "name": "Launch Brave against localhost",
+      "type": "pwa-chrome",
+      "runtimeArgs": ["--remote-debugging-port=9222"],
+      "runtimeExecutable": "/Users/kloy/Applications/Brave Browser.app/Contents/MacOS/Brave Browser",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "JavaScript Debug Terminal",
+      "type": "node-terminal",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "skipFiles": ["**internal/**/*"],
+      // "stopOnEntry": true,
+      // Change program to hardhat
+      // "program": "${workspaceFolder}/crypto/Smart/ Contracts/Test/packages/hardhat/node_modules/",
+      "console": "integratedTerminal",
+      "outputCapture": "std",
+      "trace": true,
+      // "args": [
+      //   "cd crypto/Smart\/ Contracts/Test/ && yarn deploy",
+      //   "yarn",
+      //   "--cwd",
+      //   "${workspaceFolder}/crypto/Smart\/ Contracts/Test/",
+      //   "deploy"
+      // ],
+      // "disableOptimisticBPs": true
+      // "windows": {
+      //   "program": "${workspaceFolder}/mugshots-next/node_modules/jest/bin/jest",
+      // }
+    },
+    {
+      "name": "Debug Typescript",
+      "request": "launch",
+      "type": "pwa-chrome",
+      // "type": "node",
+      // "program": "${workspaceFolder}/crypto/acala_assignment/src/App.tsx",
+      // "preLaunchTask": "tsc: build", // Make this combine the tsc & react-start
+      "sourceMaps": true,
+      // "smartStep": true,
+      // "url": "http://localhost:3000",
+      "url": "http://localhost:3000/*",
+      "breakOnLoad": true,
+      // "internalConsoleOptions": "openOnSessionStart",
+      // "outFiles": [
+      //   "${workspaceFolder}/crypto/acala_assignment/src/**/*.js",
+      // ],
+      // "webRoot": "${workspaceFolder}/crypto/acala_assignment",
+      // "webRoot": "${workspaceFolder}/crypto/acala_assignment/source",
+      // "webRoot": "${workspaceFolder}/crypto/acala_assignment/src",
+      "webRoot": "${workspaceFolder}/crypto/acala_assignment/public"
+      // "sourceMapPathOverrides": {
+      //   "webpack://?:*/*": "${workspaceFolder}/*"
+      // },
+      // "sourceMapRenames": true,
+      // "pathMapping": {
+      //   "/": "${workspaceFolder}/crypto/acala_assignment/source",
+      //   "Users/kloy/Development/Code/crypto/source" : "${workspaceFolder}/crypto/acala_assignment/source"
+      // },
+      // "skipFiles": [
+      //   "${workspaceFolder}/crypto/acala_assignment/node_modules/**/*.js",
+      //   "<node_internals>/**/*.js"
+      // ]
+    },
+    {
+      "name": "React",
+      "type": "pwa-chrome",
+      "preLaunchTask": "debugger", // Make this combine the tsc & react-start
+      "runtimeArgs": ["--remote-debugging-port=9222"],
+      "runtimeExecutable": "/Users/kloy/Applications/Brave Browser.app/Contents/MacOS/Brave Browser",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "Town Star - Server",
+      "type": "node-terminal",
+      "request": "launch",
+      "console": "integratedTerminal",
+      "trace": true,
+      "outputCapture": "std",
+      "args": [
+        "npm run serve",
+      ],
+      "cwd": "${workspaceFolder}/Work/Town Star/townstar-api/server",
+      "envFile": "${workspaceFolder}/Work/Town Star/townstar-api/server/.env"
+      // "windows": {
+      //   "program": "${workspaceFolder}/mugshots-next/node_modules/jest/bin/jest",
+      // }
+      },
   ]
 }
